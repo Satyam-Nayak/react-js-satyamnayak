@@ -4,7 +4,7 @@ function HooksU(){
     return(
         <div>
             <p>Counter: {count}</p>
-            <button style={{height:'50%',width:"100%"}} onClick={()=> setCount(count+1)}>Incremant</button>
+            <button  onClick={()=> setCount(count+1)}>Incremant</button>
         </div>
     )
 }
